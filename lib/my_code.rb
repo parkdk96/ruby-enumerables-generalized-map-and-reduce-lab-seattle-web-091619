@@ -9,6 +9,7 @@ end
 
 def reduce(source_array, starting_point = 0)
   source_array.length.times do |i|
+    # this time both source_array[i] and starting_point are sent to be evaluated in the block code
     starting_point = yield(source_array[i], starting_point)
   end
   if !starting_point
