@@ -17,7 +17,3 @@ def reduce(source_array, starting_point = 0)
   return starting_point
 end
   
-
-# reduce(source_array, starting_point){|memo, n| memo + n}
-# reduce(source_array){|memo, n| memo || n}
-# reduce(source_array){|memo, n| memo && n}
